@@ -1,3 +1,5 @@
+"use client";
+
 export const metadata = { title: "Pricing, TalkToYou AI" };
 
 async function checkout(plan: string) {
