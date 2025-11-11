@@ -12,31 +12,6 @@
     "baseUrl": ".",
     "paths": { "@/*": ["./*"] }
   },
-  "in
-
-
-[200~# 1. Ga naar je projectmap (pas het pad aan als het anders is)
-cd "C:/talktoyouai-site-updated"
-
-# 2. Installeer TypeScript en type-definities
-npm install -D typescript @types/react @types/node
-
-# 3. Maak of overschrijf tsconfig.json
-cat > tsconfig.json <<'EOF'
-{
-  "compilerOptions": {
-    "target": "es2017",
-    "jsx": "preserve",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "paths": { "@/*": ["./*"] }
-  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
